@@ -51,3 +51,34 @@ console.log(perro1)
 console.log(Perro.contadorMascota);
 
 console.log(perro1.contadorMascota);
+
+for (let i=1 ; i<=10 ; i++) {
+    for (let j=1 ; j<=10 ; j++) {
+        const resultado = i * j
+        console.log(i + 'x' + j + '=' + resultado)
+    }
+}
+
+for (let i = 0; i < 10 && i !== 3; i++) {
+    console.log('Hola')
+  }
+
+const dia = new Date().getDay()
+
+switch (dia) {
+  case 0:
+  case 6:
+    console.log("¡Hoy es fin de semana! 🥳")
+    break
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+    console.log("¡Nooo, a trabajar! 😢")
+    break
+  case 5:
+    console.log("¡Hoy es viernes! 🤓")
+    break
+}
+
+console.log(dia)
